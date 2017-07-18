@@ -1,0 +1,14 @@
+To use the code, run the script learn_from_data.m or the function graph_learning_our
+learn_from_data:
+There are some modifications to the script needed to use on your own data: 
+	-load the data at the beginning
+	-for the purposes of graph tresholding, provide an approximate number of expected edges in variable nedges
+	-change the number of atoms that describe a signal (maybe you want them to be larger in larger graphs)
+	-adjust the parameters for gradient descent alpha and n_epochs, as well as graph sparsity beta
+Some other parameters can be adjusted throughout the code if needed
+
+graph_learning_our:
+To call this function, variable param must be specified with a lot of parameters that can all be changed, similarly to learn_from_data. Signals should be given in param.y. It also takes alpha for gradient descent, beta for graph sparsity and maxEpochs for number of GD iterations.
+
+This code is complementary to the work published at https://infoscience.epfl.ch/record/224359/files/icassp_final.pdf
+
