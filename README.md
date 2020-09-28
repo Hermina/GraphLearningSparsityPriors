@@ -12,3 +12,13 @@ To call this function, variable param must be specified with a lot of parameters
 
 This code is complementary to the work published at https://infoscience.epfl.ch/record/224359/files/icassp_final.pdf
 
+If you find this code useful in your research, please cite:
+
+    @inproceedings{maretic2017graph,
+      title={Graph learning under sparsity priors},
+      author={Maretic, Hermina Petric and Thanou, Dorina and Frossard, Pascal},
+      booktitle={2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+      pages={6523--6527},
+      year={2017},
+      organization={Ieee}
+    }
